@@ -9,244 +9,248 @@
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
 </head>
 
-<body class="debug-grid mh6 bg-light-gray">
-    <div class=" pv0 ">
-        <div class="ma0 bg-dark-blue ph4 m-0 ba bw1 b--light-blue">
-            <h1 class="white bg-dark-blue">Happy Valley Shelter </h1>
-        </div>
+<body class="bg-light-gray">
+    <main class="debug-grid mh6 bg-light-gray">
+        <div class=" pv0 ">
+            <div class="ma0 bg-dark-blue ph4 m-0 ba bw1 b--light-blue">
+                <h1 class="white bg-dark-blue">Happy Valley Shelter </h1>
+            </div>
 
-        <div class="black bg-white ma0 ph4">
-            <h2 class="f4 pa0 ma0">Adopt a dog</h2>
-            <p class="f6 ma0 pv2">If you are interested in adopting one of our animals, please fill out our <a
-                    href="  ">
-                    online adoption form.</a></p>
-        </div>
-        <div class="dt dt--fixed w-100 bg-light-gray ma0">
-            <h3 class="ma0 pa4 bg-light-gray">Show me dogs that are</h3>
-            <form class="flex ph3">
-                <fieldset id="gender" class="bn">
-                    <legend class="fw7 mb2"> Gender</legend>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="male" value="male">
-                        <label for="male" class="lh-copy">Male</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="female" value="female">
-                        <label for="female" class="lh-copy">Female</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="all" value="all">
-                        <label for="all" class="lh-copy">All</label>
-                    </div>
+            <div class="black bg-white ma0 ph4">
+                <h2 class="f4 pa0 ma0">Adopt a dog</h2>
+                <p class="f6 ma0 pv2">If you are interested in adopting one of our animals, please fill out our <a
+                        href="  ">
+                        online adoption form.</a></p>
+            </div>
+            <div class="dt dt--fixed w-100 bg-light-gray ma0">
+                <h3 class="ma0 pa4 bg-light-gray">Show me dogs that are</h3>
+                <form class="flex ph3">
+                    <fieldset id="gender" class="bn">
+                        <legend class="fw7 mb2"> Gender</legend>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="male" value="male">
+                            <label for="male" class="lh-copy">Male</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="female" value="female">
+                            <label for="female" class="lh-copy">Female</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="all" value="all">
+                            <label for="all" class="lh-copy">All</label>
+                        </div>
 
-                </fieldset>
-                <fieldset id="age" class="bn">
-                    <legend class="fw7 mb2"> Age</legend>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="Puppy" value="Puppy">
-                        <label for="Puppy" class="lh-copy">Puppy</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="Young" value="Young">
-                        <label for="Young" class="lh-copy">Young</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="Adult" value="Adult">
-                        <label for="Adult" class="lh-copy">Adult</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="senior" value="senior">
-                        <label for="senior" class="lh-copy">Senior</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="all" value="all">
-                        <label for="all" class="lh-copy">All</label>
-                    </div>
+                    </fieldset>
+                    <fieldset id="age" class="bn">
+                        <legend class="fw7 mb2"> Age</legend>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="puppy" value="puppy">
+                            <label for="Puppy" class="lh-copy">Puppy</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="young" value="young">
+                            <label for="Young" class="lh-copy">Young</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="adult" value="adult">
+                            <label for="Adult" class="lh-copy">Adult</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="senior" value="senior">
+                            <label for="senior" class="lh-copy">Senior</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="all" value="all">
+                            <label for="all" class="lh-copy">All</label>
+                        </div>
 
-                </fieldset>
-                <fieldset id="Size" class="bn">
-                    <legend class="fw7 mb2"> Size</legend>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="tiny" value="tiny">
-                        <label for="tiny" class="lh-copy">Tiny</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="small" value="small">
-                        <label for="small" class="lh-copy">Small</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="medium" value="medium">
-                        <label for="medium" class="lh-copy">Medium</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="large" value="large">
-                        <label for="large" class="lh-copy">Large</label>
-                    </div>
+                    </fieldset>
+                    <fieldset id="Size" class="bn">
+                        <legend class="fw7 mb2"> Size</legend>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="tiny" value="tiny">
+                            <label for="tiny" class="lh-copy">Tiny</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="small" value="small">
+                            <label for="small" class="lh-copy">Small</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="medium" value="medium">
+                            <label for="medium" class="lh-copy">Medium</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="large" value="large">
+                            <label for="large" class="lh-copy">Large</label>
+                        </div>
 
-                </fieldset>
-                <fieldset id="personality_traits" class="bn">
-                    <legend class="fw7 mb2"> Personality Traits</legend>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="Easygoing" value="Easygoing">
-                        <label for="Easygoing" class="lh-copy">Easygoing</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="energetic" value="energetic">
-                        <label for="energetic" class="lh-copy">Energetic</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="good_with_kids" value="good_with_kids">
-                        <label for="good_with_kids" class="lh-copy">Good with kids</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="Good_with_other_dogs" value="Good_with_other_dogs">
-                        <label for="Good_with_other_dogs" class="lh-copy">Good with other dogs</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="primer" value="primer">
-                        <label for="primer" class="lh-copy">Primer</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="proxy" value="proxy">
-                        <label for="proxy" class="lh-copy">Hudsucker Proxy</label>
-                    </div>
-                    <div class="flex items-center mb2">
-                        <input class="mr2" type="checkbox" id="homealone" value="homealone">
-                        <label for="homealone" class="lh-copy">Home Alone</label>
-                    </div>
-                </fieldset>
-        </div>
-        </form>
-        <section class="cf w-100 pa2-ns bg-white">
-            <article class="fl w-100 w-50-m  w-30-ns pa2-ns">
-                <div class="aspect-ratio aspect-ratio--1x1">
-                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/beans.jpg"
-                        class="db bg-center cover aspect-ratio--object" />
-                </div>
-                <a href="#0" class="ph2 ph0-ns pb2 link db">
-                    <h3 class="f5 f4-ns ma0 black-90">Bean</h3>
-                    <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Adult
-                    </a>
-                    <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Male
-                    </a>
-                    <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Medium
-                    </a>
-                    <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Easygoing
-                    </a>
-                    <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Good with cats
-                    </a>
-                </a>
-            </article>
-            <article class="fl w-100 w-50-m  w-30-ns pa2-ns">
-                <div class="aspect-ratio aspect-ratio--1x1">
-                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/boston-terrier.jpg"
-                        class="db bg-center cover aspect-ratio--object" />
-                </div>
-                <a href="#0" class="ph2 ph0-ns pb3 link db">
-                    <h3 class="f5 f4-ns ma0 black-90">Zelda</h3>
-                    <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
-                </a>
-            </article>
-            <article class="fl w-100 w-50-m  w-30-ns pa2-ns">
-                <div class="aspect-ratio aspect-ratio--1x1">
-                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/boxer.jpg"
-                        class="db bg-center cover aspect-ratio--object" />
-                </div>
-                <a href="#0" class="ph2 ph0-ns pb3 link db">
-                    <h3 class="f5 f4-ns ma0 black-90">Baby</h3>
-                    <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
-                </a>
-            </article>
-            <article class="fl w-100 w-50-m  w-30-ns pa2-ns">
-                <div class="aspect-ratio aspect-ratio--1x1">
-                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/golden-lab.jpg"
-                        class="db bg-center cover aspect-ratio--object" />
-                </div>
-                <a href="#0" class="ph2 ph0-ns pb3 link db">
-                    <h3 class="f5 f4-ns ma0 black-90">Tom Tom</h3>
-                    <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
-                </a>
-            </article>
-            <article class="fl w-100 w-50-m  w-30-ns pa2-ns">
-                <div class="aspect-ratio aspect-ratio--1x1">
-                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/little-dog.jpg"
-                        class="db bg-center cover aspect-ratio--object" />
-                </div>
-                <a href="#0" class="ph2 ph0-ns pb3 link db">
-                    <h3 class="f5 f4-ns ma0 black-90">Marco</h3>
-                    <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
-                </a>
-            </article>
-            <article class="fl w-100 w-50-m  w-30-ns pa2-ns">
-                <div class="aspect-ratio aspect-ratio--1x1">
-                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/old-shaggy.jpg"
-                        class="db bg-center cover aspect-ratio--object" />
-                </div>
-                <a href="#0" class="ph2 ph0-ns pb3 link db">
-                    <h3 class="f5 f4-ns ma0 black-90">Shackleton</h3>
-                    <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
-                </a>
-            </article>
-            <article class="fl w-100 w-50-m  w-30-ns pa2-ns">
-                <div class="aspect-ratio aspect-ratio--1x1">
-                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/shih-tzu.jpg"
-                        class="db bg-center cover aspect-ratio--object" />
-                </div>
-                <a href="#0" class="ph2 ph0-ns pb3 link db">
-                    <h3 class="f5 f4-ns ma0 black-90">Midge</h3>
-                    <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
-                </a>
-            </article>
-            <article class="fl w-100 w-50-m  w-30-ns pa2-ns">
-                <div class="aspect-ratio aspect-ratio--1x1">
-                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/young-bulldog.jpg"
-                        class="db bg-center cover aspect-ratio--object" />
-                </div>
-                <a href="#0" class="ph2 ph0-ns pb3 link db">
-                    <h3 class="f5 f4-ns ma0 black-90">Lady Bird</h3>
-                    <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
-                </a>
-            </article>
-            <article class="fl w-100 w-50-m  w-30-ns pa2-ns">
-                <div class="aspect-ratio aspect-ratio--1x1">
-                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/young-peppy.jpg"
-                        class="db bg-center cover aspect-ratio--object" />
-                </div>
-                <a href="#0" class="ph2 ph0-ns pb3 link db">
-                    <h3 class="f5 f4-ns ma0 black-90">Mina</h3>
-                    <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
-                </a>
-            </article>
-            <footer>
-                <article class="fl w-100 w-50-m  w-30-ns pa0-ns">
+                    </fieldset>
+                    <fieldset id="personality_traits" class="bn">
+                        <legend class="fw7 mb2"> Personality Traits</legend>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="easygoing" value="easygoing">
+                            <label for="easygoing" class="lh-copy">Easygoing</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="energetic" value="energetic">
+                            <label for="energetic" class="lh-copy">Energetic</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="good_with_kids" value="good_with_kids">
+                            <label for="good_with_kids" class="lh-copy">Good with kids</label>
+                        </div>
+                        <div class="flex items-center mb2">
+                            <input class="mr2" type="checkbox" id="good_with_other_dogs" value="good_with_other_dogs">
+                            <label for="Good_with_other_dogs" class="lh-copy">Good with other dogs</label>
+                        </div>
+                    </fieldset>
+            </div>
+            </form>
+            <section class="cf w-100 bg-white">
+                <article class="fl w-100 w-50-m  w-33-ns pa2-ns">
                     <div class="aspect-ratio aspect-ratio--1x1">
-                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/donate.jpg"
+                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/beans.jpg"
                             class="db bg-center cover aspect-ratio--object" />
                     </div>
-                    <a href="#0" class="ph2 ph0-ns pb3 link db">
-                        <h3 class="f5 f4-ns ma0 black-90">Donate</h3>
+                    <a href="#0" class="ph2 ph0-ns pb2 link db">
+                        <h3 class="f5 f4-ns ma0 black-90">Bean</h3>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Adult
+                        </a>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Male
+                        </a>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Medium
+                        </a>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Easygoing
+                        </a>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Good with
+                            cats
+                        </a>
                     </a>
                 </article>
-                <article class="fl w-100 w-50-m  w-30-ns pa0-ns">
+                <article class="fl w-100 w-50-m  w-33-ns pa2-ns">
                     <div class="aspect-ratio aspect-ratio--1x1">
-                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/volunteer.jpg"
+                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/boston-terrier.jpg"
                             class="db bg-center cover aspect-ratio--object" />
                     </div>
-                    <a href="#0" class="ph2 ph0-ns pb3 link db">
-                        <h3 class="f5 f4-ns ma0 black-90">Volunteer</h3>
+                    <a href="#0" class="ph2 ph0-ns pb2 link db">
+                        <h3 class="f5 f4-ns ma0 black-90">Zelda</h3>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Senior
+                        </a>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Female
+                        </a>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Small
+                        </a>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Easygoing
+                        </a>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Good with
+                            kids
+                        </a>
+                        <a class="f7 grow no-underline br-pill ph2 pv2 mb1 dib black bg-light-blue" href="#0">Good with
+                            other dogs
+                        </a>
                     </a>
                 </article>
-                <article class="fl w-100 w-50-m  w-30-ns pa0-ns">
+                <article class="fl w-100 w-50-m  w-33-ns pa2-ns">
                     <div class="aspect-ratio aspect-ratio--1x1">
-                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/location.png"
+                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/boxer.jpg"
                             class="db bg-center cover aspect-ratio--object" />
-                        <h3 class="f5 f4-ns ma0 black-90">Our Location</h3>
+                    </div>
+                    <a href="#0" class="ph2 ph0-ns pb5 link db">
+                        <h3 class="f5 f4-ns ma0 black-90">Baby</h3>
+                        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+                    </a>
+                </article>
+                <article class="fl w-100 w-50-m w-33-ns pa2-ns">
+                    <div class="aspect-ratio aspect-ratio--1x1">
+                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/golden-lab.jpg"
+                            class="db bg-center cover aspect-ratio--object" />
+                    </div>
+                    <a href="#0" class="ph2 ph0-ns pb5 link db">
+                        <h3 class="f5 f4-ns ma0 black-90">Tom Tom</h3>
+                        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+                    </a>
+                </article>
+                <article class="fl w-100 w-50-m  w-33-ns pa2-ns">
+                    <div class="aspect-ratio aspect-ratio--1x1">
+                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/little-dog.jpg"
+                            class="db bg-center cover aspect-ratio--object" />
+                    </div>
+                    <a href="#0" class="ph2 ph0-ns pb5 link db">
+                        <h3 class="f5 f4-ns ma0 black-90">Marco</h3>
+                        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+                    </a>
+                </article>
+                <article class="fl w-100 w-50-m  w-33-ns pa2-ns">
+                    <div class="aspect-ratio aspect-ratio--1x1">
+                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/old-shaggy.jpg"
+                            class="db bg-center cover aspect-ratio--object" />
+                    </div>
+                    <a href="#0" class="ph2 ph0-ns pb5 link db">
+                        <h3 class="f5 f4-ns ma0 black-90">Shackleton</h3>
+                        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+                    </a>
+                </article>
+                <article class="fl w-100 w-50-m  w-33-ns pa2-ns">
+                    <div class="aspect-ratio aspect-ratio--1x1">
+                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/shih-tzu.jpg"
+                            class="db bg-center cover aspect-ratio--object" />
+                    </div>
+                    <a href="#0" class="ph2 ph0-ns pb5 link db">
+                        <h3 class="f5 f4-ns ma0 black-90">Midge</h3>
+                        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+                    </a>
+                </article>
+                <article class="fl w-100 w-50-m  w-33-ns pa2-ns">
+                    <div class="aspect-ratio aspect-ratio--1x1">
+                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/young-bulldog.jpg"
+                            class="db bg-center cover aspect-ratio--object" />
+                    </div>
+                    <a href="#0" class="ph2 ph0-ns pb5 link db">
+                        <h3 class="f5 f4-ns ma0 black-90">Lady Bird</h3>
+                        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+                    </a>
+                </article>
+                <article class="fl w-100 w-50-m  w-33-ns pa2-ns">
+                    <div class="aspect-ratio aspect-ratio--1x1">
+                        <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/young-peppy.jpg"
+                            class="db bg-center cover aspect-ratio--object" />
+                    </div>
+                    <a href="#0" class="ph2 ph0-ns pb5 link db">
+                        <h3 class="f5 f4-ns ma0 black-90">Mina</h3>
+                        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+                    </a>
+                </article>
+        </div>
+        <footer>
+            <article class="fl w-100 w-50-m  w-33-ns pa0-ns">
+                <div class="aspect-ratio aspect-ratio--1x1">
+                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/donate.jpg"
+                        class="db bg-center cover aspect-ratio--object" />
+                </div>
+                <a href="#0" class="ph2 ph0-ns pb3 link db">
+                    <h3 class="f5 f4-ns ma0 black-90">Donate</h3>
+                </a>
+            </article>
+            <article class="fl w-100 w-50-m  w-33-ns dt pa0-ns">
+                <div class="aspect-ratio aspect-ratio--1x1">
+                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/volunteer.jpg"
+                        class="db bg-center cover aspect-ratio--object" />
+                </div>
+                <a href="#0" class="ph2 ph0-ns pb3 link db">
+                    <h3 class="f5 f4-ns ma0 black-90">Volunteer</h3>
+                </a>
+            </article>
+            <article class="fl w-100 w-50-m  w-33-ns pa0-ns">
+                <div class="aspect-ratio aspect-ratio--1x1">
+                    <img src="/Users/lesliehealray/homework/w1d3-dog-adoption-site-lesliehealray/starter_files/images/location.png"
+                        class="db bg-center cover aspect-ratio--object" />
+                    <h3 class="f5 f4-ns ma0 black-90">Our Location</h3>
 
-                    </div>
-                    <a href="#0" class="ph2 ph0-ns pb3 link db">
-                        <h3 class="f5 f4-ns ma0 black-90">Our Location</h3>
-                    </a>
-                </article>
-            </footer>
-            </main>
+                </div>
+                <a href="#0" class="ph2 ph0-ns pb3 link db">
+                    <h3 class="f5 f4-ns ma0 black-90">Our Location</h3>
+                </a>
+            </article>
+        </footer>
+    </main>
 </body>
